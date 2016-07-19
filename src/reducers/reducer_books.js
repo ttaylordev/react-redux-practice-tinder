@@ -1,10 +1,9 @@
 export default function () {
-  function () {
-    return [
-      {title: 'Javascript: The Good Parts'},
-      {title: 'Harry Potter'},
-      {title: 'The Dark Tower'},
-      {title: 'Eloquent Ruby'}
-    ]
-  }
+  return [
+    {title: 'Javascript: The Good Parts'},
+    {title: 'Harry Potter'},
+    {title: 'The Dark Tower'},
+    {title: 'Eloquent Ruby'}
+  ]
 }
+

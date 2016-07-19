@@ -21,4 +21,23 @@
 
 - a dumb component has no direct connection to redux.
 
+- the most parent component that needs a state shoudl be the container
+
+- containers should only be components that care about a particular piece os state.
+
+- only the most parent component that cares about that piece of state needs to be connected to redux.
+
+- react-redux is the glue between react and redux
+- they are all three, seperate libraries with little to do with eachother.
+
+-connect  take s a function and a component, then produces a container, the container5 is a component that is aware of the state that is containeed by redux.
+
+- the mapStateToProps function takes state as an argument, and returns an object, whatever object is returned will be available to the component as this.props.
+
+- whenever application state changes, the container will instantly re-render with a new list of books.
+
+- by using connect to create a container, whenever the app state changes, the object in the state function will be assigned as props to the components. 
+
+
+
 
